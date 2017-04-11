@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var slug = require('slugify');
+var slug = require('slug');
 var Playground = require('./../schemes/mongoose/playground');
 var request = require('request');
 var http = require('http');
