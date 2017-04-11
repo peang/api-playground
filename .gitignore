@@ -1,6 +1,5 @@
 node_modules
 babel_cache
 .env
-bundle.js
 *.log
 .idea/workspace.xml

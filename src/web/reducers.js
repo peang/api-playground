@@ -2,7 +2,7 @@ import { combineReducers } from 'redux';
 import { reducer as formReducer } from 'redux-form';
 
 import {sidebar} from './components/Sidebar/reducers';
-import {authentication} from './views/components/AuthHeader/reducers';
+import {authentication} from './views/Components/AuthHeader/reducers';
 import {generatorBody, generatorForm, generatorRequest, generatorQueryParamForm, generatorViewMode} from './views/Components/Generator/reducer';
 
 const allReducers = {
