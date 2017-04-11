@@ -27,9 +27,6 @@ class Dashboard extends Component {
                         <div className="card-block">
                             <blockquote className="card-blockquote">
                                 <h1>Welcome to Sidebeep API Playground.</h1>
-                                <footer>Someone famous in
-                                    <cite title="Source Title">Source Title</cite>
-                                </footer>
                             </blockquote>
                         </div>
                     </div>

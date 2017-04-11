@@ -54,7 +54,7 @@ class GeneratorForms extends Component {
         }
     }
 
-    componentWillMount() {
+    componentDidMount() {
         if (this.props.sidebar.state === 'done') {
             this.populateEndpoint();
         }

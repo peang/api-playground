@@ -9,7 +9,7 @@ class Generator extends Component {
         super(props);
     }
 
-    componentWillUpdate() {
+    componentDidUpdate() {
         this.props.dispatch(reset('api_client'));
         this.triggerChangeField(this.props);
     }
