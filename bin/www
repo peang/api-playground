@@ -1,8 +1,11 @@
 require('babel-register')({
   presets: ['react']
 })
+require("babel-polyfill");
 
 require('dotenv').config();
+
+var colors = require('colors/safe');
 
 /**
  * Module dependencies.
@@ -91,4 +94,5 @@ function onListening() {
     ? 'pipe ' + addr
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
+  console.log(colors.cyan('[server] Listening on ' + bind));
 }

@@ -1,37 +1,52 @@
 var path = require('path');
 var webpack = require('webpack');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
+    entry: [
+        'babel-polyfill',
+        './src/web/client.js',
+    ],
+    // entry: './src/web/#learning/index.js',
     devServer: {
         inline: true,
-        contentBase: './src/web',
+        contentBase: './public',
         port: 3000
     },
     devtool: 'cheap-module-eval-source-map',
-    entry: './src/web/client.js',
     module: {
-        loaders: [{
-            test: path.join(__dirname, 'src'),
-            loader: ['babel'],
-            query: {
-                cacheDirectory: 'babel_cache',
-                presets: ['react', 'es2015']
+        rules: [
+            {
+                test: /\.scss$/,
+                include: [
+                    path.resolve(__dirname, 'scss'),
+                    path.resolve(__dirname, 'public/css'),
+                ],
+                loaders: ExtractTextPlugin.extract({
+                    fallback: 'style-loader',
+                    use: 'css-loader!sass-loader',
+                    publicPath: 'public'
+                }),
+            },
+            {
+                test: path.join(__dirname, 'src/web'),
+                loader: ['babel-loader']
             }
-        }]
+        ],
     },
     output: {
-        path: './public',
+        path: __dirname + '/public',
         filename: 'bundle.js'
     },
     plugins: [
-        new webpack.DefinePlugin({
-            'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
-            'process.env.BROWSER': JSON.stringify(true)
+        new ExtractTextPlugin({
+            filename: '/css/style.css',
+            disable: false,
+            allChunks: false
         }),
-        new webpack.optimize.DedupePlugin(),
-        new webpack.optimize.OccurenceOrderPlugin(),
+        new webpack.optimize.OccurrenceOrderPlugin(),
         new webpack.optimize.UglifyJsPlugin({
-            compress: { warnings: false },
+            compress: {warnings: false},
             mangle: true,
             sourcemap: false,
             beautify: false,

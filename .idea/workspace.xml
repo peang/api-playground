@@ -1,0 +1,1775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c9bf32a-4de9-4c2b-b0a0-abb00d2bc57e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/avatars/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sidebeep-playground.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/_bootstrap-variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/_custom-variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/_custom.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/_react-select2.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_custom/_badge.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_custom/_breadcrumb.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_custom/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_custom/_card.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_custom/_dropdown.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_custom/_input-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_custom/_modal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_custom/_nav.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_custom/_navbar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_custom/_progress.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_custom/_tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_alert.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_badge.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_breadcrumb.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_button-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_card.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_carousel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_close.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_code.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_custom-forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_custom.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_dropdown.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_images.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_input-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_jumbotron.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_list-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_media.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_modal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_nav.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_navbar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_normalize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_popover.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_print.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_progress.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_reboot.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_responsive-embed.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_tooltip.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_transitions.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_type.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/bootstrap-grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/bootstrap-reboot.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/bootstrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_alert.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_background-variant.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_badge.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_border-radius.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_breakpoints.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_cards.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_clearfix.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_float.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_gradients.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_grid-framework.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_hover.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_image.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_list-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_lists.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_nav-divider.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_navbar-align.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_reset-text.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_resize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_screen-reader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_size.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_table-row.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_text-emphasis.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_text-hide.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_text-truncate.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_transforms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/mixins/_visibility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/utilities/_align.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/utilities/_background.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/utilities/_borders.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/utilities/_clearfix.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/utilities/_display.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/utilities/_flex.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/utilities/_float.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/utilities/_position.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/utilities/_screenreaders.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/utilities/_sizing.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/utilities/_spacing.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/utilities/_text.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bootstrap_src/utilities/_visibility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_animate.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_aside.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_avatars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_breadcrumb-menu.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_callout.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_charts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_footer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_layout.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_loading.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_mobile.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_navigation.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_others.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_rtl.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_switches.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_temp.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_typography.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_utilities-border.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_widgets.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/navigation/_disabled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/navigation/_sidebar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/navigation/_top.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/vendors/_vendors.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/vendors/balloon/_balloon.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/vendors/chart.js/chart.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/components/Sidebar/SidebarEndpoints.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/components/Sidebar/SidebarList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/components/Sidebar/fetchData/fetchServiceData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/components/Sidebar/reducers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/reducers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/AuthHeader/AuthHeader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/AuthHeader/AuthHeaderForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/AuthHeader/AuthHeaderJwtForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/AuthHeader/fetchData/jwtFormSubmit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/AuthHeader/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/AuthHeader/reducers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/Generator/Generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/Generator/GeneratorBody.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/Generator/GeneratorForms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/Generator/factory/GeneratorFormFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/Generator/factory/GeneratorQueryParamFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/Generator/factory/GeneratorUrlParamFormFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/Generator/fetchData/requestFormSubmit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/Generator/fetchData/requestJsonData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/Generator/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/Generator/reducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/Components/RequestResultCard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/break.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/views/reducers.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/font-awesome.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/ASEAN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Afghanistan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/African Union.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Albania.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Algeria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/American Samoa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Andorra.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Angola.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Anguilla.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Antarctica.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Antigua &amp; Barbuda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Arab League.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Argentina.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Armenia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Aruba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Australia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Austria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Azerbaijan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Bahamas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Bahrain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Bangladesh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Barbados.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Belarus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Belgium.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Belize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Benin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Bermuda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Bhutan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Bolivia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Bosnia &amp; Herzegovina.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Botswana.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Brazil.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Brunei.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Bulgaria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Burkina Faso.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Burundi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/CARICOM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/CIS.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Cambodja.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Cameroon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Canada.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Cape Verde.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Cayman Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Central African Republic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Chad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Chile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/China.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Colombia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Commonwealth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Comoros.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Congo-Brazzaville.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Congo-Kinshasa(Zaire).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Cook Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Costa Rica.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Cote d'Ivoire.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Croatia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Cuba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Cyprus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Czech Republic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Denmark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Djibouti.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Dominica.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Dominican Republic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Ecuador.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Egypt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/El Salvador.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/England.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Equatorial Guinea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Eritrea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Estonia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Ethiopia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/European Union.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Faroes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Fiji.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Finland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/France.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Gabon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Gambia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Georgia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Germany.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Ghana.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Gibraltar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Greece.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Greenland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Grenada.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Guadeloupe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Guam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Guatemala.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Guernsey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Guinea-Bissau.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Guinea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Guyana.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Haiti.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Honduras.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Hong Kong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Hungary.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Iceland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/India.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Indonezia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Iran.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Iraq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Ireland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Islamic Conference.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Isle of Man.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Israel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Italy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Jamaica.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Japan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Jersey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Jordan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Kazakhstan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Kenya.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Kiribati.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Kosovo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Kuwait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Kyrgyzstan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Laos.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Latvia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Lebanon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Lesotho.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Liberia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Libya.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Liechtenshein.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Lithuania.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Luxembourg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Macao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Macedonia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Madagascar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Malawi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Malaysia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Maldives.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Mali.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Malta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Marshall Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Martinique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Mauritania.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Mauritius.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Mexico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Micronesia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Moldova.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Monaco.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Mongolia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Montenegro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Montserrat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Morocco.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Mozambique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Myanmar(Burma).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/NATO.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Namibia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Nauru.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Nepal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Netherlands Antilles.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Netherlands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/New Caledonia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/New Zealand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Nicaragua.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Niger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Nigeria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/North Korea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Northern Cyprus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Northern Ireland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Norway.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/OPEC.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Olimpic Movement.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Oman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Pakistan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Palau.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Palestine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Panama.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Papua New Guinea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Paraguay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Peru.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Philippines.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Poland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Portugal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Puerto Rico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Qatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Red Cross.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Reunion.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Romania.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Russia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Rwanda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Saint Lucia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Samoa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/San Marino.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Sao Tome &amp; Principe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Saudi Arabia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Scotland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Senegal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Serbia(Yugoslavia).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Seychelles.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Sierra Leone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Singapore.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Slovakia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Slovenia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Solomon Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Somalia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Somaliland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/South Africa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/South Korea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Spain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Sri Lanka.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/St Kitts &amp; Nevis.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/St Vincent &amp; the Grenadines.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Sudan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Suriname.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Swaziland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Sweden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Switzerland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Syria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Tahiti(French Polinesia).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Taiwan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Tajikistan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Tanzania.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Thailand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Timor-Leste.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Togo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Tonga.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Trinidad &amp; Tobago.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Tunisia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Turkey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Turkmenistan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Turks and Caicos Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Tuvalu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/USA.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Uganda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Ukraine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/United Arab Emirates.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/United Nations.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/United-Kingdom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Uruguay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Uzbekistan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Vanutau.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Vatican City.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Venezuela.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Viet Nam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Virgin Islands British.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Virgin Islands US.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Wales.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Western Sahara.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Yemen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Zambia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags/Zimbabwe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/components/NotFoundPage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Charts/Charts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Charts/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Components/Buttons/Buttons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Components/Buttons/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Components/Cards/Cards.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Components/Cards/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Components/Forms/Forms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Components/Forms/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Components/Modals/Modals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Components/Modals/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Components/SocialButtons/SocialButtons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Components/SocialButtons/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Components/Switches/Switches.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Components/Switches/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Components/Tables/Tables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Components/Tables/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Components/Tabs/Tabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Components/Tabs/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Icons/FontAwesome/FontAwesome.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Icons/FontAwesome/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Icons/SimpleLineIcons/SimpleLineIcons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Icons/SimpleLineIcons/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Pages/Login/Login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Pages/Login/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Pages/Register/Register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Pages/Register/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Widgets/Widgets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/views/Widgets/package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/logo.png" afterPath="$PROJECT_DIR$/public/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.babelrc" afterPath="$PROJECT_DIR$/.babelrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env.example" afterPath="$PROJECT_DIR$/.env.example" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/www" afterPath="$PROJECT_DIR$/bin/www" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/routes/index.js" afterPath="$PROJECT_DIR$/src/api/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/configs/db.js" afterPath="$PROJECT_DIR$/src/common/configs/db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/client.js" afterPath="$PROJECT_DIR$/src/web/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/components/Header/Header.js" afterPath="$PROJECT_DIR$/src/web/components/Header/Header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/components/Sidebar/Sidebar.js" afterPath="$PROJECT_DIR$/src/web/components/Sidebar/Sidebar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/containers/Full/Full.js" afterPath="$PROJECT_DIR$/src/web/containers/Full/Full.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/routes.js" afterPath="$PROJECT_DIR$/src/web/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/routes/index.js" afterPath="$PROJECT_DIR$/src/web/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/views/Dashboard/Dashboard.js" afterPath="$PROJECT_DIR$/src/web/views/Dashboard/Dashboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/views/Pages/Page404/Page404.js" afterPath="$PROJECT_DIR$/src/web/views/Pages/Page404/Page404.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/views/Pages/Page500/Page500.js" afterPath="$PROJECT_DIR$/src/web/views/Pages/Page500/Page500.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/views/index.ejs" afterPath="$PROJECT_DIR$/src/web/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="reducers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/reducers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2530">
+              <caret line="110" column="41" lean-forward="false" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requestFormSubmit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/fetchData/requestFormSubmit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Generator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/Generator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dashboard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/views/Dashboard/Dashboard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthHeader.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/views/Components/AuthHeader/AuthHeader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="40" column="36" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="40" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthHeaderForm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/views/Components/AuthHeader/AuthHeaderForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="724">
+              <caret line="73" column="48" lean-forward="false" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/Header/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="44" column="38" lean-forward="false" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneratorBody.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/GeneratorBody.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneratorForms.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/GeneratorForms.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestResultCard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/views/Components/RequestResultCard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Full.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/containers/Full/Full.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneratorQueryParamFactory.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/factory/GeneratorQueryParamFactory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-725">
+              <caret line="22" column="84" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="84" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneratorUrlParamFormFactory.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/factory/GeneratorUrlParamFormFactory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneratorFormFactory.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/factory/GeneratorFormFactory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="205" column="65" lean-forward="false" selection-start-line="205" selection-start-column="65" selection-end-line="205" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_custom.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/_custom.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="724">
+              <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sidebar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/Sidebar/Sidebar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fetchServiceData.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/Sidebar/fetchData/fetchServiceData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SidebarList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/Sidebar/SidebarList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="26" column="88" lean-forward="false" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3048">
+              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-909">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/views/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-449">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env.example" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env.example">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="package_json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>app.css</find>
+      <find>header</find>
+      <find>img</find>
+      <find>hover</find>
+      <find>key</find>
+      <find>ul</find>
+      <find>sidebar-hidden</find>
+      <find>menu</find>
+      <find>hide</find>
+      <find>hidden</find>
+      <find>aside-menu-hidden</find>
+      <find>card-block</find>
+      <find>request</find>
+      <find>title</find>
+      <find>method</find>
+      <find>J</find>
+      <find>Json</find>
+      <find>authHeaderForm</find>
+      <find>jwtToken</find>
+      <find>sidebar</find>
+      <find>vendor</find>
+      <find>choice</find>
+      <find>logo</find>
+      <find>background</find>
+      <find>backgorund</find>
+      <find>consol</find>
+      <find>dev</find>
+      <find>uglify</find>
+      <find>nodemon</find>
+      <find>create</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/babel_cache</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/web/views/Components/Generator/fetchData/requestJsonData.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/AuthHeader/AuthHeaderJwtForm.js" />
+        <option value="$PROJECT_DIR$/src/web/components/Sidebar/fetchData/fetchServiceName.js" />
+        <option value="$PROJECT_DIR$/src/web/components/Sidebar/reducers.js" />
+        <option value="$PROJECT_DIR$/src/web/routes.js" />
+        <option value="$PROJECT_DIR$/src/web/components/Sidebar/SidebarEndpoints.js" />
+        <option value="$PROJECT_DIR$/.env.example" />
+        <option value="$PROJECT_DIR$/bin/www" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/Generator/GeneratorField.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/Generator/GeneratorFields.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/Generator/GeneratorFormFactory.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/RequestResult.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/AuthHeader/AuthHeader.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/AuthHeader/reducers.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/Generator/factory/GeneratorQueryParamFormFactory.js" />
+        <option value="$PROJECT_DIR$/src/web/client.js" />
+        <option value="$PROJECT_DIR$/src/api/routes/request.js" />
+        <option value="$PROJECT_DIR$/src/web/components/Sidebar/SidebarList.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/AuthHeader/fetchData/jwtFormSubmit.js" />
+        <option value="$PROJECT_DIR$/src/web/components/Sidebar/Sidebar.js" />
+        <option value="$PROJECT_DIR$/scss/vendors/_balloon.scss" />
+        <option value="$PROJECT_DIR$/scss/style.scss" />
+        <option value="$PROJECT_DIR$/scss/vendors/_vendors.scss" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/Generator/QueryParamElement.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/Generator/factory/GeneratorUrlParamFormFactory.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/Generator/factory/GeneratorQueryParamFactory.js" />
+        <option value="$PROJECT_DIR$/src/web/components/Sidebar/fetchData/fetchServiceData.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/Generator/fetchData/requestFormSubmit.js" />
+        <option value="$PROJECT_DIR$/scss/_custom-variables.scss" />
+        <option value="$PROJECT_DIR$/scss/_bootstrap-variables.scss" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/Generator/GeneratorResult.js" />
+        <option value="$PROJECT_DIR$/src/web/reducers.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/Generator/reducer.js" />
+        <option value="$PROJECT_DIR$/src/web/containers/Full/Full.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/Generator/GeneratorBody.js" />
+        <option value="$PROJECT_DIR$/scss/_custom.scss" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/Generator/factory/GeneratorFormFactory.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/Generator/GeneratorForms.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/AuthHeader/AuthHeaderForm.js" />
+        <option value="$PROJECT_DIR$/deploy.sh" />
+        <option value="$PROJECT_DIR$/src/api/routes/index.js" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/web/views/index.ejs" />
+        <option value="$PROJECT_DIR$/src/web/views/Dashboard/Dashboard.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/Generator/Generator.js" />
+        <option value="$PROJECT_DIR$/src/web/views/Components/RequestResultCard.js" />
+        <option value="$PROJECT_DIR$/src/web/components/Header/Header.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="containers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="containers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Full" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Header" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebeep-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scss/vendors/balloon" />
+      <recent name="$PROJECT_DIR$/public/img/avatars" />
+      <recent name="$PROJECT_DIR$/src/web/views/Components/Generator/factory" />
+      <recent name="$PROJECT_DIR$/public/css" />
+      <recent name="$PROJECT_DIR$/src/web/views/Components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scss" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c9bf32a-4de9-4c2b-b0a0-abb00d2bc57e" name="Default" comment="" />
+      <created>1490352202024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490352202024</updated>
+      <workItem from="1490352203489" duration="538000" />
+      <workItem from="1490353303807" duration="11429000" />
+      <workItem from="1490547884428" duration="60000" />
+      <workItem from="1490547972052" duration="24000" />
+      <workItem from="1490548007464" duration="24267000" />
+      <workItem from="1490677140979" duration="31304000" />
+      <workItem from="1490759901065" duration="115215000" />
+      <workItem from="1491397874870" duration="1963000" />
+      <workItem from="1491460385542" duration="5433000" />
+      <workItem from="1491489148367" duration="15716000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="205949000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18324292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32809225" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/web/#learning/pages/UserEdit.js</url>
+          <line>72</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/web/#learning/reducers/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="59" column="10" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="59" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/#learning/components/UserDelete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/#learning/components/UserList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/#learning/components/UserListElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="42" column="55" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="42" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/uuid/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/Components/AuthHeader/fetchData/jwtFormSubmit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/QueryParamElement.js" />
+    <entry file="file://$PROJECT_DIR$/src/web/components/Sidebar/SidebarList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="26" column="88" lean-forward="false" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/Sidebar/Sidebar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1047">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_react-select2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/core/_aside.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/core/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/core/navigation/_disabled.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/core/navigation/_top.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1507">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/core/navigation/_sidebar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="332" column="24" lean-forward="false" selection-start-line="332" selection-start-column="14" selection-end-line="332" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/core/_animate.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/core/_switches.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/core/_rtl.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="155" column="17" lean-forward="false" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/core/_others.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/core/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_bootstrap-variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_custom-variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/Sidebar/fetchData/fetchServiceData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/Components/AuthHeader/AuthHeaderJwtForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/reducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/GeneratorResult.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/fetchData/requestFormSubmit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2530">
+          <caret line="110" column="41" lean-forward="false" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/Components/AuthHeader/AuthHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="40" column="36" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="40" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/Components/AuthHeader/AuthHeaderForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="73" column="48" lean-forward="false" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/GeneratorForms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/GeneratorBody.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-449">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3048">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-909">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/Dashboard/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/Generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/factory/GeneratorFormFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="205" column="65" lean-forward="false" selection-start-line="205" selection-start-column="65" selection-end-line="205" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/factory/GeneratorUrlParamFormFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/Components/Generator/factory/GeneratorQueryParamFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-725">
+          <caret line="22" column="84" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/views/Components/RequestResultCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/containers/Full/Full.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/Header/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="44" column="38" lean-forward="false" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

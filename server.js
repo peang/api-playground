@@ -3,6 +3,7 @@ import path from 'path';
 import logger from 'morgan';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
+import favicon from 'serve-favicon';
 
 import db from './src/common/configs/db';
 import web from './src/web/routes/index';
@@ -15,13 +16,12 @@ server.set('views', path.join(__dirname, '/src/web/views'));
 server.set('view engine', 'ejs');
 
 // uncomment after placing your favicon in /public
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+server.use(favicon( path.join(__dirname, 'public', 'favicon.ico') ) );
 server.use(logger('dev'));
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({ extended: false }));
 server.use(cookieParser());
 
-// server.use(require('./src/web/routes/index'));
 server.use(express.static(path.join(__dirname, '/public')));
 
 server.use('/api', api);

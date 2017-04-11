@@ -28,7 +28,6 @@ if (process.env.DB_VIA_SSH === 'true') {
         db.once('open', function () {
             // we're connected!
             console.log(colors.cyan(`[database] Connection successful via ssh : ${process.env.DB_SSH_HOST} => ${process.env.DB_HOST}`));
-            // console.log(server);
         });
     });
 } else {
@@ -39,6 +38,5 @@ if (process.env.DB_VIA_SSH === 'true') {
     db.once('open', function () {
         // we're connected!
         console.log(colors.cyan(`[database] Connection successful : ${process.env.DB_HOST}`));
-        // console.log(server);
     });
 }
