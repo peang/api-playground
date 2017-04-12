@@ -18,7 +18,7 @@ class AuthHeader extends Component {
                         <div className="card-header">
                             JWT Header
                             <label className="switch switch-sm switch-text switch-info float-right mb-0">
-                                <input type="checkbox" className="switch-input" onClick={this.contentToggle} id="toggle-hide-auth" defaultChecked />
+                                <input type="checkbox" className="switch-input" onClick={this.contentToggle} defaultChecked />
                                 <span className="switch-label" data-on="On" data-off="Off"></span>
                                 <span className="switch-handle"></span>
                             </label>
