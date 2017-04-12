@@ -109,20 +109,14 @@ export function generatorQueryParamForm(state = {
 }
 
 export function generatorViewMode(state={
-                                     mode: 'json'
+                                     mode: 'pretty'
                                   }, action) {
 
     let new_state = JSON.parse(JSON.stringify(state));
 
     switch (action.type) {
         case 'generator_view_mode.change':
-            if (new_state.mode === 'json') {
-                new_state.mode = 'raw'
-            } else if (new_state.mode === 'raw') {
-                new_state.mode = 'json'
-            } else {
-                new_state.mode = 'json'
-            }
+            new_state.mode = action.view;
 
             return new_state;
 

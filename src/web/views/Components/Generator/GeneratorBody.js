@@ -17,10 +17,12 @@ class GeneratorBody extends Component {
     /**
      * Trigger change view
      */
-    changeViewMode()
-    {
+    changeViewMode(event) {
+        let viewMode = event.target.getAttribute('data-view');
+
         this.props.dispatch({
-            type: 'generator_view_mode.change'
+            type: 'generator_view_mode.change',
+            view: viewMode
         })
     }
 
@@ -37,16 +39,16 @@ class GeneratorBody extends Component {
                 return (
                     <button className="btn btn-info btn-sm text float-right">
                         <span style={{marginRight: 2 + 'px'}}
-                            key={methodName}>{methodName}
+                              key={methodName}>{methodName}
                           </span>
                     </button>
                 )
             })
         } else {
             return (
-            <button className="btn btn-info btn-sm text float-right">
-                <span>{methods}</span>
-            </button>
+                <button className="btn btn-info btn-sm text float-right">
+                    <span>{methods}</span>
+                </button>
             )
         }
     }
@@ -62,12 +64,30 @@ class GeneratorBody extends Component {
                         <div className="card-header">
                             <button type="button"
                                     className="btn btn-sm btn-secondary float-right"
-                                    style={{marginLeft: 2 + 'px'}}
-                                    data-balloon="Change View Mode"
+                                    data-balloon="Pretty"
                                     data-balloon-pos="up"
-                                    onClick={this.changeViewMode}
-                                    >
-                                <i className="icon-eye icons"></i> {this.props.generatorViewMode.mode.toUpperCase()}
+                                    data-view="pretty"
+                                    onClick={this.changeViewMode}>
+                                <i className="fa fa-list-alt" data-view="pretty"></i>
+                            </button>
+
+                            <button type="button"
+                                    className="btn btn-sm btn-warning float-right"
+                                    data-balloon="Raw"
+                                    data-balloon-pos="up"
+                                    data-view="raw"
+                                    onClick={this.changeViewMode}>
+                                <i className="fa fa-align-center" data-view="raw"></i>
+                            </button>
+
+                            <button type="button"
+                                    className="btn btn-sm btn-success float-right"
+                                    data-balloon="Preview"
+                                    data-balloon-pos="up"
+                                    data-view="preview"
+                                    style={{marginLeft: 5 + 'px'}}
+                                    onClick={this.changeViewMode}>
+                                <i className="fa fa-tasks" data-view="preview"></i>
                             </button>
                             {this.props.generatorForm.data.title}
                             {this.renderMethodSpan()}

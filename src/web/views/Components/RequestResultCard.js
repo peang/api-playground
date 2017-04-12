@@ -25,7 +25,7 @@ export default class RequestResultCard extends Component {
             base0F: '#be643c'
         };
 
-        if (this.props.mode === 'json') {
+        if (this.props.mode === 'pretty') {
             return (
                 <div className={`card card-accent-${this.props.badge} card-result-wrapper`}>
                     <div className="card-header">
@@ -39,6 +39,19 @@ export default class RequestResultCard extends Component {
                 </div>
             )
         } else if (this.props.mode === 'raw') {
+            return (
+                <div className={`card card-accent-${this.props.badge} card-result-wrapper`}>
+                    <div className="card-header">
+                        Request Result
+                        <span className='badge badge-info float-right'>{this.props.request_time}ms</span>
+                        <span className={`badge badge-${this.props.badge} float-right`} style={{marginRight: 5 + 'px'}}>{this.props.code}</span>
+                    </div>
+                    <div className="card-block card-result">
+                        {JSON.stringify(this.props.body)}
+                    </div>
+                </div>
+            )
+        } else if (this.props.mode === 'preview') {
             return (
                 <div className={`card card-accent-${this.props.badge} card-result-wrapper`}>
                     <div className="card-header">
