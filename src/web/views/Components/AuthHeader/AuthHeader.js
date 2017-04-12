@@ -18,12 +18,12 @@ class AuthHeader extends Component {
                         <div className="card-header">
                             JWT Header
                             <label className="switch switch-sm switch-text switch-info float-right mb-0">
-                                <input type="checkbox" className="switch-input" onClick={this.contentToggle} defaultChecked />
+                                <input type="checkbox" className="switch-input" onClick={this.contentToggle} />
                                 <span className="switch-label" data-on="On" data-off="Off"></span>
                                 <span className="switch-handle"></span>
                             </label>
                         </div>
-                        <Row className="card-block sidebar-hidden" id="auth-header-body">
+                        <Row className="card-block sidebar-hidden hide-content" id="auth-header-body">
                             <Col sm={12} md={6}>
                                 <AuthHeaderForm />
                             </Col>

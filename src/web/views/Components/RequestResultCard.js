@@ -47,7 +47,7 @@ export default class RequestResultCard extends Component {
                         <span className={`badge badge-${this.props.badge} float-right`} style={{marginRight: 5 + 'px'}}>{this.props.code}</span>
                     </div>
                     <div className="card-block card-result">
-                        {JSON.stringify(this.props.body)}
+                        {JSON.stringify(this.props.body, null, 2)}
                     </div>
                 </div>
             )
