@@ -37,10 +37,8 @@ class GeneratorBody extends Component {
         if (isArray) {
             return this.props.generatorForm.data.method.map((methodName, index) => {
                 return (
-                    <button className="btn btn-info btn-sm text float-right">
-                        <span style={{marginRight: 2 + 'px'}}
-                              key={methodName}>{methodName}
-                          </span>
+                    <button className="btn btn-info btn-sm text float-right" key={methodName} style={{marginLeft: 2 + 'px'}}>
+                        <span>{methodName}</span>
                     </button>
                 )
             })
@@ -92,7 +90,7 @@ class GeneratorBody extends Component {
                             {this.props.generatorForm.data.title}
                             {this.renderMethodSpan()}
                         </div>
-                        <Row className="card-block" id="auth-header-body">
+                        <Row className="card-block">
                             <Col sm={12} md={6}>
                                 <GeneratorForms />
                             </Col>

@@ -13,7 +13,7 @@ class GeneratorUrlParamFormFactory extends Component {
                         <div className="form-group" key={data}>
                             <label htmlFor={normalizedName}>{normalizedName}</label>
                             <Field name={"urlParam" + data} className="form-control" component="input" type="text"
-                                   placeholder={"Enter " + normalizedName}/>
+                                   placeholder={"Enter " + normalizedName} />
                         </div>
                     )
                 })}

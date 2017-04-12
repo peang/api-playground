@@ -22,30 +22,32 @@ class GeneratorForms extends Component {
                 let endpoints = data.endpoints;
                 endpoints.map((endpointData, index) => {
                     if (endpointData.path === this.props.generatorBody.data.path) {
-                        endpoint = endpointData;
+                        if (endpointData.method.includes(this.props.generatorBody.data.method)) {
+                            endpoint = endpointData;
+
+                            let pathSplitted = endpoint.path.split('/');
+                            let pathResult = pathSplitted.map((route, index) => {
+                                let pattern = /{/i;
+                                if (pattern.test(route)) {
+                                    let normalized = route.replace('{', '').replace('}', '');
+
+                                    return normalized;
+                                }
+                            });
+
+                            this.props.dispatch({
+                                type: 'generator_form.has_endpoint',
+                                endpoint: endpoint,
+                                urlParams: pathResult.filter((n) => {
+                                    return n !== undefined
+                                }),
+                                bodyParams: endpoint.fields
+                            })
+                        }
                     }
                 })
             }
         });
-
-        let pathSplitted = endpoint.path.split('/');
-        let pathResult = pathSplitted.map((route, index) => {
-            let pattern = /{/i;
-            if (pattern.test(route)) {
-                let normalized = route.replace('{', '').replace('}', '');
-
-                return normalized;
-            }
-        });
-
-        this.props.dispatch({
-            type: 'generator_form.has_endpoint',
-            endpoint: endpoint,
-            urlParams: pathResult.filter((n) => {
-                return n !== undefined
-            }),
-            bodyParams: endpoint.fields
-        })
     }
 
     componentDidUpdate() {

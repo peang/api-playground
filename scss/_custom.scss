@@ -38,3 +38,31 @@
   content:"*";
   color:red;
 }
+
+body {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+#auth-header-body {
+  overflow: auto;
+  height: 600px;
+  max-height: 600px;
+  padding: 1.25rem;
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+
+.hide-content {
+  height: 0 !important;
+  padding: 0 !important;
+}
