@@ -6804,7 +6804,7 @@ app-root {
           width: 250px; }
         body.sidebar-compact .sidebar ul.nav li.nav-item:hover > ul, body.sidebar-compact .sidebar ul.nav li.nav-item:hover > ol {
           display: inline;
-          max-height: 10000px;
+          max-height: 50000px;
           transition: 0s; }
           body.sidebar-compact .sidebar ul.nav li.nav-item:hover > ul li, body.sidebar-compact .sidebar ul.nav li.nav-item:hover > ol li {
             width: 200px; }
@@ -9064,9 +9064,9 @@ body {
   height: 600px;
   max-height: 600px;
   padding: 1.25rem;
-  -webkit-transition: 0.5s ease-in;
-  -moz-transition: 0.5s ease-in;
-  transition: 0.5s ease-in; }
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  transition: 0.3s ease-in; }
 
 .hide-content {
   height: 0 !important;
