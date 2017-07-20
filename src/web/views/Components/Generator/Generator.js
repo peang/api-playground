@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import AuthHeader from './../AuthHeader';
+import Authentication from '../Authentication/Authentication';
 import GeneratorBody from './GeneratorBody';
 import {reset} from 'redux-form';
 
@@ -29,7 +29,7 @@ class Generator extends Component {
     render() {
         return (
             <div>
-                <AuthHeader/>
+                <Authentication />
                 <GeneratorBody />
             </div>
         )

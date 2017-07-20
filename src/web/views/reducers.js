@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 
-import {authentication} from './components/AuthHeader/reducers';
+import {authentication} from './Components/Authentication/reducers';
 
 export const reducers = combineReducers({
     authentication: authentication,

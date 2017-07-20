@@ -1,6 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
     entry: [
@@ -51,6 +52,10 @@ module.exports = {
             sourcemap: false,
             beautify: false,
             dead_code: true
+        }),
+        new Dotenv({
+            path: './.env',
+            safe: true // load .env.example (defaults to "false" which does not use dotenv-safe)
         })
     ]
 };

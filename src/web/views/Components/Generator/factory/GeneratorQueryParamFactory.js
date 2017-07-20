@@ -8,7 +8,7 @@ class GeneratorQueryParamFactory extends Component {
         super(props);
 
         this.addQueryParam = this.addQueryParam.bind(this);
-        // this.deleteQueryParam = this.deleteQueryParam.bind(this);
+        // this.deleteHeader = this.deleteHeader.bind(this);
     }
 
     render() {
@@ -33,7 +33,8 @@ class GeneratorQueryParamFactory extends Component {
                             <Col md={5}>
                                 <div className="form-group form-query-param">
                                     <label htmlFor={data}></label>
-                                    <Field name={"qparamKey_" + data} className="form-control" component="input" type="text"
+                                    <Field name={"qparamKey_" + data} className="form-control" component="input"
+                                           type="text"
                                            placeholder="Key"/>
                                 </div>
                             </Col>

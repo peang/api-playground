@@ -161,8 +161,6 @@ router.post('/request-client', (req, res, next) => {
     delete data.jwt;
     delete data.method;
 
-    // return res.send(data);
-
     request.type("json");
     request.send(data);
 

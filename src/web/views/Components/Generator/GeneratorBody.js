@@ -61,7 +61,7 @@ class GeneratorBody extends Component {
                     <div className="card">
                         <div className="card-header">
                             <button type="button"
-                                    className="btn btn-sm btn-secondary float-right"
+                                    className="btn btn-sm btn-success float-right"
                                     data-balloon="Pretty"
                                     data-balloon-pos="up"
                                     data-view="pretty"
@@ -70,7 +70,7 @@ class GeneratorBody extends Component {
                             </button>
 
                             <button type="button"
-                                    className="btn btn-sm btn-warning float-right"
+                                    className="btn btn-sm btn-secondary float-right"
                                     data-balloon="Raw"
                                     data-balloon-pos="up"
                                     data-view="raw"
@@ -79,7 +79,7 @@ class GeneratorBody extends Component {
                             </button>
 
                             <button type="button"
-                                    className="btn btn-sm btn-success float-right"
+                                    className="btn btn-sm btn-warning float-right"
                                     data-balloon="Preview"
                                     data-balloon-pos="up"
                                     data-view="preview"

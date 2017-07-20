@@ -1,6 +1,7 @@
 export function sidebar(state = {
                             state: 'done',
-                            sidebar_component: []
+                            sidebar_component: [],
+                            api_host: `${process.env.API_HOST}`
                         }, action) {
     let new_state = JSON.parse(JSON.stringify(state));
 
@@ -8,7 +9,8 @@ export function sidebar(state = {
         case 'sidebar.service_data':
             new_state = {
                 state: 'loading',
-                sidebar_component: []
+                sidebar_component: [],
+                api_host: `${process.env.API_HOST}`
             }
 
             return new_state;
@@ -16,7 +18,8 @@ export function sidebar(state = {
         case 'sidebar.service_data_success':
             new_state = {
                 state: 'done',
-                sidebar_component: action.data
+                sidebar_component: action.data,
+                api_host: `${process.env.API_HOST}`
             }
 
             return new_state;
@@ -24,7 +27,8 @@ export function sidebar(state = {
         case 'sidebar.service_data_error':
             new_state = {
                 state: 'error',
-                sidebar_component: []
+                sidebar_component: [],
+                api_host: `${process.env.API_HOST}`
             }
 
             return new_state;

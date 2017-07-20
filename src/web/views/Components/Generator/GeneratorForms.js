@@ -5,6 +5,7 @@ import GeneratorQueryParamFactory from "./factory/GeneratorQueryParamFactory";
 import GeneratorUrlParamFormFactory from "./factory/GeneratorUrlParamFormFactory";
 import requestFormSubmit from "./fetchData/requestFormSubmit";
 import {reduxForm, formValueSelector} from "redux-form";
+import {GeneratorHeadersFactory} from "./factory/GeneratorHeadersFactory";
 
 class GeneratorForms extends Component {
     constructor(props) {
@@ -76,6 +77,8 @@ class GeneratorForms extends Component {
                 </div>
                 <form onSubmit={handleSubmit(this.handleSubmit.bind(this))}>
                     <GeneratorQueryParamFactory />
+                    {/*<hr />*/}
+                    {/*<GeneratorHeadersFactory />*/}
                     <hr />
                     <strong><p>URL Params</p></strong>
                     <GeneratorUrlParamFormFactory />
