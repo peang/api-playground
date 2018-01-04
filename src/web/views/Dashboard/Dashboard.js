@@ -23,10 +23,10 @@ class Dashboard extends Component {
         return (
             <div className="animated fadeIn">
                 <div className="col-sm-12">
-                    <div className="card card-inverse card-info text-center">
+                    <div className="card text-center">
                         <div className="card-block">
                             <blockquote className="card-blockquote">
-                                <h1>Welcome to Sidebeep API Playground.</h1>
+                                <h1>Welcome to Bizzy API Explorer.</h1>
                             </blockquote>
                         </div>
                     </div>

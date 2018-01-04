@@ -27,13 +27,6 @@ server.use(express.static(path.join(__dirname, '/public')));
 server.use('/api', api);
 server.use('/', web);
 
-// catch 404 and forward to error handler
-// server.use(function(req, res, next) {
-//   var err = new Error('Not Found');
-//   err.status = 404;
-//   next(err);
-// });
-
 // error handler
 server.use(function(err, req, res, next) {
   // set locals, only providing error in development

@@ -4,6 +4,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 
 module.exports = {
+    watch: true,
     entry: [
         'babel-polyfill',
         './src/web/client.js',
@@ -55,7 +56,8 @@ module.exports = {
         }),
         new Dotenv({
             path: './.env',
-            safe: true // load .env.example (defaults to "false" which does not use dotenv-safe)
-        })
+            safe: false // load .env.example (defaults to "false" which does not use dotenv-safe)
+        }),
+        new webpack.HotModuleReplacementPlugin()
     ]
 };

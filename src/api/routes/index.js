@@ -1,3 +1,5 @@
+import { Error } from 'mongoose';
+
 var express = require('express');
 var router = express.Router();
 var slug = require('slug');
