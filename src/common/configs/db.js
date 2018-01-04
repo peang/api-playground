@@ -3,7 +3,7 @@ var fs = require('fs');
 var tunnel = require('tunnel-ssh');
 var colors = require('colors/safe');
 
-if (process.env.DB_VIA_SSH === 'true') {
+if (process.env.DB_SSH_HOST !== '') {
     var config = {
         username: `${process.env.DB_SSH_USERNAME}`,
         password: `${process.env.DB_SSH_PASSWORD}`,

@@ -47,7 +47,7 @@ module.exports = {
         }),
         new webpack.optimize.OccurrenceOrderPlugin(),
         new webpack.optimize.UglifyJsPlugin({
-            compress: {warnings: false},
+            compress: { warnings: false },
             mangle: true,
             sourcemap: false,
             beautify: false,
