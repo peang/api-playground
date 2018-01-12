@@ -57,7 +57,6 @@ module.exports = {
         new Dotenv({
             path: './.env',
             safe: false // load .env.example (defaults to "false" which does not use dotenv-safe)
-        }),
-        new webpack.HotModuleReplacementPlugin()
+        })
     ]
 };

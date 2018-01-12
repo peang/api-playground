@@ -1,6 +1,6 @@
-import React, {Component} from "react";
-import {connect} from "react-redux";
-import {Col, Row} from "react-bootstrap";
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import { Col, Row } from "react-bootstrap";
 import GeneratorForms from './GeneratorForms';
 import RequestResultCard from "./../RequestResultCard";
 
@@ -33,18 +33,55 @@ class GeneratorBody extends Component {
     renderMethodSpan() {
         let methods = this.props.generatorForm.data.method;
         let isArray = Array.isArray(methods)
-
+        let methodSpanColor;
+        
         if (isArray) {
             return this.props.generatorForm.data.method.map((methodName, index) => {
+                switch (methodName) {
+                    case 'POST':
+                        methodSpanColor = 'info';
+                        break;
+                    case 'GET':
+                        methodSpanColor = 'success';
+                        break;
+                    case 'UPDATE':
+                        methodSpanColor = 'warning';
+                        break;
+                    case 'DELETE':
+                        methodSpanColor = 'danger';
+                        break;
+                    default:
+                        methodSpanColor = 'info';
+                        break;
+                }
+
                 return (
-                    <button className="btn btn-info btn-sm text float-right" key={methodName} style={{marginLeft: 2 + 'px'}}>
+                    <button className={`btn btn-${methodSpanColor} btn-sm text float-right`} key={methodName} style={{ marginLeft: 2 + 'px' }}>
                         <span>{methodName}</span>
                     </button>
                 )
             })
         } else {
+            switch (methods) {
+                case 'POST':
+                    methodSpanColor = 'info';
+                    break;
+                case 'GET':
+                    methodSpanColor = 'success';
+                    break;
+                case 'UPDATE':
+                    methodSpanColor = 'warning';
+                    break;
+                case 'DELETE':
+                    methodSpanColor = 'danger';
+                    break;
+                default:
+                    methodSpanColor = 'info';
+                    break;
+            }
+
             return (
-                <button className="btn btn-info btn-sm text float-right">
+                <button className={`btn btn-${methodSpanColor} btn-sm text float-right`}>
                     <span>{methods}</span>
                 </button>
             )
@@ -61,30 +98,30 @@ class GeneratorBody extends Component {
                     <div className="card">
                         <div className="card-header">
                             <button type="button"
-                                    className="btn btn-sm btn-success float-right"
-                                    data-balloon="Pretty"
-                                    data-balloon-pos="up"
-                                    data-view="pretty"
-                                    onClick={this.changeViewMode}>
+                                className="btn btn-sm btn-success float-right"
+                                data-balloon="Pretty"
+                                data-balloon-pos="up"
+                                data-view="pretty"
+                                onClick={this.changeViewMode}>
                                 <i className="fa fa-list-alt" data-view="pretty"></i>
                             </button>
 
                             <button type="button"
-                                    className="btn btn-sm btn-secondary float-right"
-                                    data-balloon="Raw"
-                                    data-balloon-pos="up"
-                                    data-view="raw"
-                                    onClick={this.changeViewMode}>
+                                className="btn btn-sm btn-secondary float-right"
+                                data-balloon="Raw"
+                                data-balloon-pos="up"
+                                data-view="raw"
+                                onClick={this.changeViewMode}>
                                 <i className="fa fa-align-center" data-view="raw"></i>
                             </button>
 
                             <button type="button"
-                                    className="btn btn-sm btn-warning float-right"
-                                    data-balloon="Preview"
-                                    data-balloon-pos="up"
-                                    data-view="preview"
-                                    style={{marginLeft: 5 + 'px'}}
-                                    onClick={this.changeViewMode}>
+                                className="btn btn-sm btn-warning float-right"
+                                data-balloon="Preview"
+                                data-balloon-pos="up"
+                                data-view="preview"
+                                style={{ marginLeft: 5 + 'px' }}
+                                onClick={this.changeViewMode}>
                                 <i className="fa fa-tasks" data-view="preview"></i>
                             </button>
                             {this.props.generatorForm.data.title}

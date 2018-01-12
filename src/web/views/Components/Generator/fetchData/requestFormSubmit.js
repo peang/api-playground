@@ -18,9 +18,7 @@ export default (data, props) => {
             })
         })
         .catch((err) => {
-            console.log(err);
-
-            let badge
+            let badge;
             if (err.response.status >= 500) {
                 badge = 'danger'
             } else {

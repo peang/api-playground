@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node bin/www",
+    "config_parser": "node -r dotenv/config parser/config_parser.js dotenv_config_path=../.env",
     "start-dev": "nodemon bin/www",
     "build": "webpack --progress",
     "deploy": "npm install && npm run build",
@@ -14,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.15.3",
+    "bluebird": "^3.5.1",
     "body-parser": "^1.17.1",
     "chart.js": "^2.1.6",
     "cookie-parser": "^1.4.3",
@@ -46,6 +48,7 @@
     "serve-favicon": "^2.4.1",
     "slug": "^0.9.1",
     "slugify": "^1.1.0",
+    "swagger-parser": "^4.0.1",
     "tunnel-ssh": "^4.1.2",
     "unirest": "^0.5.1",
     "uuid": "^3.0.1",

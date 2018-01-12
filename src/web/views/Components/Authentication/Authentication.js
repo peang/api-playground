@@ -10,11 +10,6 @@ class Authentication extends Component {
         document.getElementById('auth-header-body').classList.toggle('hide-content');
     }
 
-    componentWillMount()
-    {
-        console.log(typeof(Storage));
-    }
-
     render() {
         return (
             <div className="animated fadeIn">

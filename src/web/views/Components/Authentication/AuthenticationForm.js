@@ -19,26 +19,6 @@ class AuthenticationForm extends Component {
         return (
             <form onSubmit={handleSubmit(this.handleSubmit.bind(this))}>
                 <div className="form-group">
-                    <label htmlFor="company">Grant Type</label>
-                    <Field name="grant_type" component="select" className="form-control">
-                        <option></option>
-                        <option value="password">Password</option>
-                    </Field>
-                </div>
-
-                <div className="form-group">
-                    <label htmlFor="client-id">Client ID</label>
-                    <Field name="client_id" className="form-control" component="input" type="text"
-                           placeholder="Enter Client ID" />
-                </div>
-
-                <div className="form-group">
-                    <label htmlFor="client-secret">Client Secret</label>
-                    <Field name="client_secret" className="form-control" component="input" type="text"
-                           placeholder="Enter Client Secret"/>
-                </div>
-
-                <div className="form-group">
                     <label htmlFor="username">Username</label>
                     <Field name="username" className="form-control" component="input" type="text"
                            placeholder="Enter Username"/>

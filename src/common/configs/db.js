@@ -1,10 +1,10 @@
-var mongoose = require('mongoose');
-var fs = require('fs');
-var tunnel = require('tunnel-ssh');
-var colors = require('colors/safe');
+const mongoose = require('mongoose');
+const fs = require('fs');
+const tunnel = require('tunnel-ssh');
+const colors = require('colors/safe');
 
 if (process.env.DB_SSH_HOST !== '') {
-    var config = {
+    const config = {
         username: `${process.env.DB_SSH_USERNAME}`,
         password: `${process.env.DB_SSH_PASSWORD}`,
         host: `${process.env.DB_SSH_HOST}`,
@@ -17,11 +17,15 @@ if (process.env.DB_SSH_HOST !== '') {
         localPort: 27017
     };
 
-    var server = tunnel(config, function (error, server) {
+    const server = tunnel(config, function (error, server) {
         if (error) {
             console.log("SSH connection error: " + error);
         }
-        mongoose.connect(`mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`);
+        mongoose.connect(`mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`,
+            {
+                useMongoClient: true
+            }
+        );
 
         var db = mongoose.connection;
         db.on('error', console.error.bind(console, 'DB connection error:'));
@@ -32,10 +36,13 @@ if (process.env.DB_SSH_HOST !== '') {
     });
 } else {
     mongoose.connect(
-        `mongodb://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`
+        `mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`,
+        {
+            useMongoClient: true
+        }
     );
 
-    var db = mongoose.connection;
+    const db = mongoose.connection;
     db.on('error', console.error.bind(console, 'DB connection error:'));
     db.once('open', function () {
         // we're connected!

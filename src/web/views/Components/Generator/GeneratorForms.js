@@ -98,7 +98,8 @@ class GeneratorForms extends Component {
     }
 
     handleSubmit(data) {
-        let queryParam = '';
+        let queryParam = [];
+        let bodyParam = {};
         let path = this.props.generatorForm.endpoint.path;
         let newPath = path;
 
@@ -111,12 +112,12 @@ class GeneratorForms extends Component {
             if (pattern.test(key)) {
                 let newParam = key.replace(/urlParam/i, '');
                 let regex = new RegExp(newParam, "i");
-                newPath = newPath.replace(regex, data[key]);
-
+                newPath = newPath.replace(regex, data[key]).replace('{', '').replace('}', '');
+                
                 delete newData[key];
             }
         });
-
+        
         // filter query param
         keys.map((key, index) => {
             let pattern = /qparamKey_/g;
@@ -127,10 +128,16 @@ class GeneratorForms extends Component {
                 let valueParam = newData[`qparamValue_${id}`] == undefined ? '' : newData[`qparamValue_${id}`];
 
                 if (keyParam !== null) {
-                    queryParam += `&${keyParam}=${valueParam}`;
-                }
+                    queryParam.push(
+                        {
+                            key:keyParam,
+                            value:valueParam
+                        }
+                    );
 
-                delete newData[key];
+                    delete newData[`qparamKey_${id}`];
+                    delete newData[`qparamValue_${id}`];
+                }
             }
         });
 
@@ -140,19 +147,23 @@ class GeneratorForms extends Component {
             if (pattern.test(key)) {
                 try {
                     let newParam = key.replace(/bodyParam_/g, '');
-                    newData[newParam] = JSON.parse(newData[key]);
+                    bodyParam[newParam] = JSON.parse(newData[key]);
+
                     delete newData[key];
                 } catch(err) {
                     let newParam = key.replace(/bodyParam_/g, '');
-                    newData[newParam] = newData[key];
+                    bodyParam[newParam] = newData[key];
+
                     delete newData[key];
                 }
             }
         });
 
-        newData.url = newPath.replace(/{/g, '').replace(/}/g, '') + '?' + encodeURI(queryParam);
+        newData.url = newPath;
         newData.jwt = this.props.jwtToken;
         newData.method = this.props.generatorForm.endpoint.method;
+        newData.params = queryParam;
+        newData.body = bodyParam;
 
         requestFormSubmit(newData, this.props);
     }

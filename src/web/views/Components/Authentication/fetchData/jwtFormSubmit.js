@@ -10,11 +10,7 @@ export default (data, props) => {
     var start_time = new Date().getTime();
     axios.post('/api/request-access-token', data)
         .then((res) => {
-            let jwt_token = '';
-            if (data.grant_type === 'password') {
-                jwt_token = res.data.access_token;
-            }
-
+            let jwt_token = res.data.token;
             let request_time = new Date().getTime() - start_time;
 
             props.dispatch({
@@ -24,9 +20,9 @@ export default (data, props) => {
                 badge: 'success',
                 jwt_token: jwt_token,
                 request_time: request_time
-            })
+            });
 
-            props.dispatch(change('auth_header', 'jwt_token', jwt_token))
+            props.dispatch(change('auth_header', 'jwt_token', jwt_token));
         })
         .catch((err) => {
             let request_time = new Date().getTime() - start_time;
